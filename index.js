@@ -21,7 +21,9 @@ function countDown(countDown) {
 
     while (countDown > 0 ) {
         
-        console.log(--countDown);
+        console.log(countDown);
+        countDown -= 1;
     }
     
+    console.log(countDown);
 }
